@@ -1,0 +1,115 @@
+html {
+	overflow-y: scroll;
+}
+
+body {
+   margin: 0px;
+   padding: 0px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.top-container {
+   background: whiteSmoke;
+   border-bottom: 1px solid #E5E5E5;
+}
+
+.top-header {
+   font-weight: bold;
+   font-size: 175%;
+   padding-top: 0.5em;
+   padding-bottom: 0.5em;
+   color: #DD4B39;
+}
+
+.center-container {
+   width: 80%;
+   margin: 0px auto;
+   padding: .5em 2em .5em 2em;
+   clear: both;
+}
+
+.sub-menu-contents {
+   overflow: hidden;
+   border-bottom: 1px solid #EBEBEB;
+   padding-bottom: 0.75em;
+   white-space: nowrap;
+   background: white;
+	text-align: left;
+   padding-right: 3em;
+}
+
+.footer-link {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+#left {
+   float: left;
+   width: 30%;
+}
+
+#middle {
+   width: 30%;
+   margin-left: 36%;
+}
+
+#right {
+   float: right;
+   width: 30%;
+}
+
+.column-header {
+   margin-bottom: 0.25em;
+   border-bottom: 1px solid #E5E5E5;
+}
+
+#quitConfigLoadScreenBtn {
+	float: right;
+}
+
+#console,
+#test-config-input {
+   width: 100%;
+   min-height: 200px;
+}
+
+#run-diagnostics-container {
+	text-align: center;
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
+}
+
+.display-full {
+	display: block;
+}
+
+.display-none {
+	display: none;
+}
+
+.button {
+   border-color: #3079ed;
+   background-color: #4d90fe;
+   background-image: -webkit-linear-gradient(top,#4d90fe,#4787ed);
+   color: #FFFFFF;
+   -webkit-border-radius: 2px;
+   -webkit-transition: all 0.218s;
+   cursor: pointer;
+   font-weight: bold;
+}
+
+.extra-large-button {
+	font-size: 135%;
+}
+
+.textbox {
+   border: 1px solid #4D90FE;
+   padding: 5px 10px;
+   margin-right: 5px;
+}
+
+.textbox:focus {
+   outline: 0px;
+   outline-offset: 0px;	
+
+}

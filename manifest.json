@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "Network Debugging",
+  "version": "0.6",
+  "minimum_chrome_version": "27",
+  "offline_enabled": true,
+  "icons": {
+    "128": "img/icon_128.png",
+    "16": "img/icon_16.png"
+  },
+  "permissions" : [
+   { "socket" : [
+     "tcp-connect:*:443",
+     "tcp-connect:*:80",
+     "tcp-connect:*:25",
+     "udp-bind:*",
+     "udp-send-to:*:53"
+   ]},
+   "clipboardWrite"
+  ],
+  "app": {
+    "background": {
+      "scripts": ["js/background.js"]
+    }
+  }
+}
